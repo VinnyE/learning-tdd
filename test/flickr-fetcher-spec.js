@@ -1,7 +1,7 @@
 'use strict';
 
 var expect = require('chai').expect,
-    FlickrFetcher = require('./flickr-fetcher.js')
+    FlickrFetcher = require('../flickr-fetcher.js')
 
 describe('FlickrFetcher', function() {
     it('should exist', function() {
