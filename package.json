@@ -2,7 +2,7 @@
   "name": "learning_tdd",
   "version": "1.0.0",
   "description": "An example project for learning TDD derived from a set of blog posts at jrsinclair.com.",
-  "main": "flickr-fetcher.js",
+  "main": "app.js",
   "scripts": {
     "test": "node_modules/.bin/mocha -w"
   },

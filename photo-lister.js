@@ -13,7 +13,13 @@ PhotoLister = {
 
     photoListToHTML: function (photos) {
         return ['<ul>', photos.map(PhotoLister.photoToListItem).join(''), '</ul>'].join('');
+    },
+
+    addPhotosToElement: function ($, selector, list) {
+        return $(selector).append(list);
     }
 };
 
-module.exports = PhotoLister;
+if ((typeof module !== 'undefined') && (typeof module.exports !== 'undefined')) {
+    module.exports = PhotoLister;
+}
